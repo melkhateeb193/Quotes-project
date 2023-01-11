@@ -1,0 +1,27 @@
+body{
+ background-color: rgb(124, 71, 174);
+ background-image: url(../css/bg-desktop.svg);
+}
+.Quote{
+    height: 100%;
+    width: 100%;
+    
+}
+.waves{
+    width: 100%;
+}
+.ButtonGeneration
+{
+    background-image: linear-gradient(to bottom,rgb(124, 71, 174),#B08BBB) ;
+    color: white;
+}
+
+@media (max-width:750px)
+{
+    .Quote.container.bg-white.d-flex.justify-content-center.align-items-center.rounded-5.flex-column.border.border-1.shadow.w-50.h-50 {
+        width: 90% !important;
+        height: 30% !important;
+        padding: 30px !important;
+        margin: 10px !important;
+    }
+}
